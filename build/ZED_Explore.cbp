@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ZED_Explore"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\Qt5.9.9\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Designer\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5UiPlugin\;CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Xml\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/yifen/Desktop/ZED_Explore/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 all"/>
+					<CompileFile command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/yifen/Desktop/ZED_Explore/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZED_Explore">
+				<Option output="C:/Users/yifen/Desktop/ZED_Explore/build/ZED_Explore.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/yifen/Desktop/ZED_Explore/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="C:/Users/yifen/Desktop/ZED_Explore/build"/>
+					<Add directory="C:/Users/yifen/Desktop/ZED_Explore"/>
+					<Add directory="C:/Users/yifen/Desktop/ZED_Explore/build/ZED_Explore_autogen/include"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtWidgets"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtANGLE"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/./mkspecs/win32-msvc"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtQml"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtNetwork"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 ZED_Explore"/>
+					<CompileFile command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZED_Explore/fast">
+				<Option output="C:/Users/yifen/Desktop/ZED_Explore/build/ZED_Explore.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/yifen/Desktop/ZED_Explore/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="C:/Users/yifen/Desktop/ZED_Explore/build"/>
+					<Add directory="C:/Users/yifen/Desktop/ZED_Explore"/>
+					<Add directory="C:/Users/yifen/Desktop/ZED_Explore/build/ZED_Explore_autogen/include"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtWidgets"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtANGLE"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/./mkspecs/win32-msvc"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtQml"/>
+					<Add directory="C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtNetwork"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 ZED_Explore/fast"/>
+					<CompileFile command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/yifen/Desktop/ZED_Explore/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZED_Explore_autogen">
+				<Option working_dir="C:/Users/yifen/Desktop/ZED_Explore/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 ZED_Explore_autogen"/>
+					<CompileFile command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f C:\Users\yifen\Desktop\ZED_Explore\build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/build/ZED_Explore_autogen/mocs_compilation.cpp">
+			<Option target="ZED_Explore"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/main.cpp">
+			<Option target="ZED_Explore"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/mainwindow.cpp">
+			<Option target="ZED_Explore"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/mainwindow.h">
+			<Option target="ZED_Explore"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/mainwindow.ui">
+			<Option target="ZED_Explore"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Designer/Qt5DesignerConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Designer\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Designer/Qt5DesignerConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Designer\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Designer/Qt5Designer_QAxWidgetPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Designer\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Designer/Qt5Designer_QQuickWidgetPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Designer\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Designer/Qt5Designer_QWebEngineViewPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Designer\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5UiPlugin/Qt5UiPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5UiPlugin\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5UiPlugin/Qt5UiPluginConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5UiPlugin\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="C:/Users/yifen/Desktop/ZED_Explore/../../../../Qt/Qt5.9.9/5.9.9/msvc2015_64/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.9.9\5.9.9\msvc2015_64\lib\cmake\Qt5Xml\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,35 @@
+# Meta
+set(AM_MULTI_CONFIG "FALSE")
+set(AM_PARALLEL "8")
+set(AM_VERBOSITY "")
+# Directories
+set(AM_CMAKE_SOURCE_DIR "C:/Users/yifen/Desktop/ZED_Explore")
+set(AM_CMAKE_BINARY_DIR "C:/Users/yifen/Desktop/ZED_Explore/build")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "C:/Users/yifen/Desktop/ZED_Explore")
+set(AM_CMAKE_CURRENT_BINARY_DIR "C:/Users/yifen/Desktop/ZED_Explore/build")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "C:/Users/yifen/Desktop/ZED_Explore/build/ZED_Explore_autogen")
+set(AM_INCLUDE_DIR "C:/Users/yifen/Desktop/ZED_Explore/build/ZED_Explore_autogen/include")
+# Files
+set(AM_SOURCES "C:/Users/yifen/Desktop/ZED_Explore/main.cpp;C:/Users/yifen/Desktop/ZED_Explore/mainwindow.cpp")
+set(AM_HEADERS "C:/Users/yifen/Desktop/ZED_Explore/mainwindow.h")
+set(AM_SETTINGS_FILE "C:/Users/yifen/Desktop/ZED_Explore/build/CMakeFiles/ZED_Explore_autogen.dir/AutogenOldSettings.txt")
+# Qt
+set(AM_QT_VERSION_MAJOR 5)
+set(AM_QT_MOC_EXECUTABLE "C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/bin/moc.exe")
+set(AM_QT_UIC_EXECUTABLE "C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/bin/uic.exe")
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_QML_LIB;QT_WIDGETS_LIB;WIN32")
+set(AM_MOC_INCLUDES "C:/Users/yifen/Desktop/ZED_Explore/build;C:/Users/yifen/Desktop/ZED_Explore;C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include;C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtWidgets;C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtGui;C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtANGLE;C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtCore;C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/./mkspecs/win32-msvc;C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtQml;C:/Qt/Qt5.9.9/5.9.9/msvc2015_64/include/QtNetwork")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "")
+set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "")
+# UIC settings
+set(AM_UIC_SKIP "")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")
